@@ -3,6 +3,7 @@ const input=document.getElementById("input")
 const searchBtn=document.getElementById("btn")
 
 const fetchMovie=async ()=>{
+    moviesBox.innerHTML=""
 
     const apiKey="ad611b1e"
     const title=input.value
